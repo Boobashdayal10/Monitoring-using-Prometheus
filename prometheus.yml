@@ -1,0 +1,15 @@
+global: 
+  scrape_interval: 15s 
+  evaluation_interval: 15s 
+# Alertmanager 
+alerting: 
+  alertmanagers: 
+    - static_configs: 
+        - targets: 
+            - 'localhost:9093' 
+rule_files: 
+  - "rule1.yml" 
+scrape_configs: 
+  - job_name: "prometheus" 
+    static_configs:    
+      - targets: ['localhost:9100', '10.184.49.77:9100']
