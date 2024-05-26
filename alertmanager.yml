@@ -1,0 +1,18 @@
+# alertmanager configuration file
+route: 
+group_by: ['alertname'] 
+receiver: 'send_mail' 
+receivers: 
+- name: 'send_mail' 
+email_configs: 
+- to: <usermail>@gmail.com 
+from: <sendermail>@gmail.com 
+smarthost: smtp.gmail.com:587 
+auth_username: boobashdayals64@gmail.com 
+auth_password: buxm fidr aaqc gcao 
+require_tls: true 
+inhibit_rules: - source_match: 
+severity: 'critical' 
+target_match: 
+severity: 'warning' 
+equal: ['alertname', 'dev', 'instance']
