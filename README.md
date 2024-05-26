@@ -6,8 +6,11 @@ The primary goal of this project is to establish a monitoring system that allows
 TOOLS AND TECHNOLOGIES USED
 
 1.Prometheus
+
 2.Node exporter
+
 3.Alertmanager
+
 4.Grafana
 
 CONCLUSION
