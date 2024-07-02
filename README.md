@@ -1,6 +1,8 @@
 # Monitoring-using-Prometheus
 This documentation is about my networking project focused on  monitoring using Prometheus, Node Exporter, Alertmanager, and Grafana. 
 
+To create or establish a basic monitoring setup like this follow the "MONITORING DOCUMENTATION' for uyour reference
+
 The primary goal of this project is to establish a monitoring system that allows real-time tracking of system metrics, alerting on predefined thresholds, and visualizing data for analysis and decision making.The configuration files used for this purpose all will be ".yml" format.
 
 TOOLS AND TECHNOLOGIES USED
